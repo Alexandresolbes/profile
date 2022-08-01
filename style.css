@@ -1,0 +1,88 @@
+body {
+  background: hsla(212, 77%, 43%, 1);
+
+  background: radial-gradient(circle, hsla(212, 77%, 43%, 1) 27%, hsla(218, 32%, 80%, 1) 100%);
+
+  background: -moz-radial-gradient(circle, hsla(212, 77%, 43%, 1) 27%, hsla(218, 32%, 80%, 1) 100%);
+
+  background: -webkit-radial-gradient(circle, hsla(212, 77%, 43%, 1) 27%, hsla(218, 32%, 80%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1969C4", endColorstr="#BBC7DC", GradientType=1 );
+
+  margin: 0;
+}
+
+#PP {
+  border-radius: 50%;
+}
+
+/*HEADERS*/
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Space Mono', monospace;
+  color: black;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Space Mono', monospace;
+}
+
+/*PARAGRAPH*/
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Space Mono', monospace;
+  color: white;
+}
+
+button {
+  text-decoration: none;
+}
+
+/*LINK STYLE*/
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: white;
+}
+
+/*CARDS*/
+
+#card1, #card2 {
+  text-align: center;
+  padding: 30px;
+  margin: 30px;
+  background-color: transparent;
+  box-shadow: 6px 6px 30px rgb(0 0 0 / 20%);
+}
+
+#card1{
+  opacity: 0.85;
+}
+
+li{
+  display: inline;
+  color: white;
+}
+
+ul{
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  opacity: 0.85;
+}
+
+#image2{
+  border-radius: 0.5%;
+  width: 100vw;
+}
